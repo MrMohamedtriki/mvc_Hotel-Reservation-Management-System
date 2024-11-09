@@ -1,0 +1,29 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: translateBackground 30s linear infinite alternate; 
+}
+
+@keyframes translateBackground {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
